@@ -9,7 +9,7 @@ const menu = Menu.buildFromTemplate([
   {
     label: app.name,
     submenu: [
-      { role: "about", label: "About Yandex Music (Unofficial)" },
+      { role: "about", label: "About Yandex Music" },
       {
         label: "Website",
         click() {
@@ -25,11 +25,11 @@ const menu = Menu.buildFromTemplate([
       { type: "separator" },
       { role: "services", submenu: [] },
       { type: "separator" },
-      { role: "hide", label: "Hide Yandex Music (Unofficial)" },
+      { role: "hide", label: "Hide Yandex Music" },
       { role: "hideothers" },
       { role: "unhide" },
       { type: "separator" },
-      { role: "quit", label: "Quit Yandex Music (Unofficial)" },
+      { role: "quit", label: "Quit Yandex Music" },
     ],
   },
   {
